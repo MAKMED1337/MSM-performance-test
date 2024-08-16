@@ -20,7 +20,6 @@ def compile_and_run(msm: MSM, points: list[Point], scalars: list[int]) -> tuple[
 
 
 def run_all_random(n: int, algos: list[MSM]) -> list[tuple[int, int]]:
-    n = 24
     points = [random_point() for _ in range(n)]
     scalars = [random_number() for _ in range(n)]
 
